@@ -1,3 +1,9 @@
+const lenis = new Lenis();
+function raf(time){
+   lenis.raf(time)
+   requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
 
 const leftBoxs = document.querySelectorAll('.b-left');
 const rightBoxs = document.querySelectorAll('.b-right');
